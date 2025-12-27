@@ -11,7 +11,10 @@ export default function Home() {
         </p>
 
         <div className="mt-6 flex gap-3">
-          <Link className="rounded-xl bg-black text-white px-5 py-3" href="/rezerwacja">
+          <Link
+            className="rounded-xl bg-black text-white px-5 py-3"
+            href="/rezerwacja"
+          >
             Rezerwuj termin
           </Link>
           <a className="rounded-xl border px-5 py-3" href="#galeria">
@@ -22,7 +25,9 @@ export default function Home() {
 
       <section id="galeria" className="mt-10">
         <h2 className="text-2xl font-semibold">Galeria</h2>
-        <p className="text-gray-600 mt-2">Tu wstawimy Twoje zdjęcia (następny krok).</p>
+        <p className="text-gray-600 mt-2">
+          Tu wstawimy Twoje zdjęcia (następny krok).
+        </p>
       </section>
     </main>
   );
